@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <meta content="Week 1 CSS challenge: Flexbox, CSS Grid, and animation demos." name="description"/>
+  <title>
+   CSS Lab | Week 1 Challenge
+  </title>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="container header-inner">
+    <div class="brand">
+     ✳ CSS LAB / 01
+    </div>
+    <nav aria-label="Page sections">
+     <a href="#flexbox">
+      Flexbox
+     </a>
+     <a href="#grid">
+      Grid
+     </a>
+     <a href="#animation">
+      Animation
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main>
+   <section class="hero container">
+    <div class="eyebrow">
+     Frontend experiments / Week one
+    </div>
+    <h1>
+     Layout is an
+     <span style="color:var(--accent)">
+      art form.
+     </span>
+    </h1>
+    <p>
+     Three practical CSS challenges: flexible cards, responsive grids, and purposeful motion. Resize your browser to see them adapt.
+    </p>
+   </section>
+   <section class="section" id="flexbox">
+    <div class="container">
+     <div class="section-head">
+      <div class="eyebrow">
+       Challenge 01 / Flexbox
+      </div>
+      <h2>
+       Words from our community
+      </h2>
+      <p>
+       Three equal-width cards on desktop; stacked vertically on smaller screens.
+      </p>
+     </div>
+     <div class="flex-demo">
+      <article class="flex-card">
+       <div class="avatar">
+        AK
+       </div>
+       <p>
+        &ldquo;The design feels clear and considered. Every detail makes the experience easier.&rdquo;
+       </p>
+       <h3>
+        Aarav K.
+       </h3>
+       <p class="note">
+        Product designer &middot; Sample testimonial
+       </p>
+      </article>
+      <article class="flex-card">
+       <div class="avatar">
+        MS
+       </div>
+       <p>
+        &ldquo;Fast, responsive, and simple to navigate. Exactly what a good interface should be.&rdquo;
+       </p>
+       <h3>
+        Maya S.
+       </h3>
+       <p class="note">
+        Frontend developer &middot; Sample testimonial
+       </p>
+      </article>
+      <article class="flex-card">
+       <div class="avatar">
+        RJ
+       </div>
+       <p>
+        &ldquo;Beautiful visual rhythm with a thoughtful balance of color, type, and space.&rdquo;
+       </p>
+       <h3>
+        Riya J.
+       </h3>
+       <p class="note">
+        Creative lead &middot; Sample testimonial
+       </p>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="grid">
+    <div class="container">
+     <div class="section-head">
+      <div class="eyebrow">
+       Challenge 02 / CSS Grid
+      </div>
+      <h2>
+       A grid of possibilities
+      </h2>
+      <p>
+       Six responsive tiles using repeat(), minmax(), and media queries.
+      </p>
+     </div>
+     <div class="grid-demo">
+      <article class="tile">
+       <span>
+        ◈
+       </span>
+       <strong>
+        01 / Visual identity
+       </strong>
+      </article>
+      <article class="tile">
+       <span>
+        ⌘
+       </span>
+       <strong>
+        02 / Development
+       </strong>
+      </article>
+      <article class="tile">
+       <span>
+        ✦
+       </span>
+       <strong>
+        03 / Illustration
+       </strong>
+      </article>
+      <article class="tile">
+       <span>
+        ▤
+       </span>
+       <strong>
+        04 / Dashboard
+       </strong>
+      </article>
+      <article class="tile">
+       <span>
+        ◎
+       </span>
+       <strong>
+        05 / User experience
+       </strong>
+      </article>
+      <article class="tile">
+       <span>
+        &nearrow;
+       </span>
+       <strong>
+        06 / Growth
+       </strong>
+      </article>
+     </div>
+    </div>
+   </section>
+   <section class="section" id="animation">
+    <div class="container">
+     <div class="section-head">
+      <div class="eyebrow">
+       Challenge 03 / Animation
+      </div>
+      <h2>
+       Motion with meaning
+      </h2>
+      <p>
+       Hover transitions, a CSS keyframe spinner, and a subtle fade-in reveal.
+      </p>
+     </div>
+     <div class="animation-panel">
+      <button class="demo-btn" id="demo-button" type="button">
+       Hover or click me &nearrow;
+      </button>
+      <div aria-label="Decorative loading spinner" class="spinner" role="img">
+      </div>
+      <div class="fade">
+       ✧ Smooth entrance
+      </div>
+     </div>
+     <p class="note" id="feedback" role="status">
+      Animations respect reduced-motion accessibility preferences.
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div class="container">
+    <p>
+     CSS Lab &middot; Week 1 internship assignment &middot; HTML &amp; CSS
+    </p>
+   </div>
+  </footer>
+  <script defer="" src="js/script.js">
+  </script>
+ </body>
+</html>
+

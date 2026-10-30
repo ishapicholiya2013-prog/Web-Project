@@ -1,0 +1,1 @@
+document.querySelector('#demo-button').addEventListener('click',()=>{document.querySelector('#feedback').textContent='Nice! The button is interactive, and its hover animation is powered by CSS transitions.';});
